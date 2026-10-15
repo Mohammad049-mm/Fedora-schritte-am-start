@@ -31,3 +31,8 @@ Nach dem Neustart kannst du mit folgendem Befehl überprüfen, ob der NVIDIA-Tre
 ```bash
 modinfo nvidia | grep version
 ```
+Den Schlüssel bei MOK anmelden
+```bash
+
+sudo mokutil --import /etc/pki/akmods/certs/public_key.der
+```
